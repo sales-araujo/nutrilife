@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove preenchimento padrão de todos os elementos */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Cor de fundo da página */
+    margin: 0; /* Remove a margem padrão do corpo */
+    flex-direction: column; /* Para empilhar imagem e quadrado verticalmente */
+    position: relative; /* Para permitir o posicionamento absoluto das imagens */
+    height: 100vh; /* Define a altura total da janela */
+}
+
+.logo-left, .logo-right {
+    position: absolute; /* Para posicionamento absoluto */
+    top: 0; /* Remove a distância do topo */
+}
+
+.logo-left {
+    left: 0; /* Distância da esquerda */
+}
+
+.logo-right {
+    right: 0; /* Distância da direita */
+}
+
+#dov {
+    margin-bottom: 10px; /* Espaçamento entre a imagem e o quadrado */
+}
+
+.quadrado {
+    width: 393px; /* Largura do quadrado */
+    height: 300px; /* Altura do quadrado */
+    background: linear-gradient(135deg, #36EEAB, #1F8862); /* Degradê de cima para baixo */
+    display: flex; /* Para centralizar o conteúdo */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Alinhamento horizontal */
+    justify-content: center; /* Alinhamento vertical */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 15px;
+}
+
+h1, h3 {
+    text-align: center; /* Centraliza os títulos */
+    margin: 0; /* Remove margens padrões */
+    color: #10633E;
+}
+
+.input-container {
+    position: relative; /* Para posicionar ícones */
+    width: 100%; /* Largura total do input */
+    height: 40px; /* Altura do input */
+    margin: 10px 0; /* Margem entre os campos */
+}
+
+input {
+    width: 100%; /* Largura total do campo */
+    height: 100%; /* Altura total do campo */
+    padding: 5px 30px 5px 40px; /* Espaçamento interno (esquerda com ícone) */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho da fonte */
+    box-sizing: border-box; /* Para garantir que o padding não afete o tamanho total */
+}
+
+.icon {
+    position: absolute; /* Para posicionar os ícones */
+    left: 10px; /* Espaçamento da esquerda */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Corrige o alinhamento */
+    color: #aaa; /* Cor do ícone */
+}
+
+.eye-icon {
+    position: absolute; /* Para posicionar o ícone de olho */
+    right: 10px; /* Espaçamento da direita */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Corrige o alinhamento */
+    color: #aaa; /* Cor do ícone */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.lembrar-senha {
+    display: flex; /* Para alinhar checkbox e texto */
+    align-items: center; /* Alinhamento vertical */
+    margin-top: 10px; /* Margem acima */
+    color: black; /* Cor do texto */
+    font-size: 12px; /* Tamanho da fonte menor */
+    width: 100%; /* Largura total */
+    justify-content: space-between; /* Alinha checkbox e link em extremos */
+}
+
+.lembrar-senha input {
+    width: 15px; /* Largura menor do checkbox */
+    height: 15px; /* Altura menor do checkbox */
+    margin-right: 5px; /* Espaçamento entre checkbox e texto */
+}
+
+.lembrar-senha span,
+.esqueci-senha {
+    color: #000; /* Cor do texto do checkbox e link */
+    font-size: 12px; /* Tamanho da fonte menor */
+}
+
+.esqueci-senha {
+    text-decoration: none; /* Remove o sublinhado */
+    margin-left: 10px; /* Margem à esquerda */
+}
+
+button {
+    margin-top: 10px; /* Margem acima do botão */
+    padding: 0; /* Sem padding */
+    width: 97px; /* Largura do botão */
+    height: 32px; /* Altura do botão */
+    background-color: #006D52; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    margin-left: auto; /* Mover botão para a direita */
+}
+
+button:hover {
+    background-color: #004b0b; /* Cor do botão ao passar o mouse */
+}
