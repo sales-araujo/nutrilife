@@ -9,6 +9,10 @@ body{
   padding: 0;
   box-sizing: border-box;
   height: 100dvh;
+  background: url("../assets/images/background-login.png");
+  background-size: contain;
+  background-position: top right; 
+  background-repeat: no-repeat;
 }
 
 .wrapper-register{

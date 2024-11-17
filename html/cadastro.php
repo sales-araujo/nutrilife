@@ -60,7 +60,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       </script>
 
       <section class="wrapper-register">
-        <img class="image-element-top" src="../assets/images/image-element-top.svg" alt="Image" />
         <div class="container-register">
           <div class="top-container">
             <img src="../assets/icon/icon-logo-nutrilife.svg" alt="Logo pequena da NutriLife" />

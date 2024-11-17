@@ -15,6 +15,10 @@ body {
     flex-direction: column; /* Para empilhar imagem e quadrado verticalmente */
     position: relative; /* Para permitir o posicionamento absoluto das imagens */
     height: 100vh; /* Define a altura total da janela */
+    background: url("../assets/images/background-login.png");
+    background-size: contain;
+    background-position: top right; 
+    background-repeat: no-repeat;
 }
 
 .logo-left, .logo-right {

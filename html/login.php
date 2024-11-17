@@ -24,14 +24,6 @@ $u = new Usuario;
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
 
-    <div class="logo-left">
-        <img src="../assets/img/Margen.png" alt="Logo Esquerda">
-    </div>
-
-    <div class="logo-right">
-        <img src="../assets/img/Legun.png" alt="Logo Direita">
-    </div>
-
     <div id="dov">
         <img src="../assets/img/Logan.png" alt="Imagem de Logotipo">
     </div>
